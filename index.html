@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Giuliano">
+    <meta name="keywords" content="html,css">
+    <meta neme="description" content="html.css">
+    <title>Notification Survey</title>
+    <link rel="stylesheet" href="resources/main.css">
+</head>
+<body>
+<div class="page-container">
+    <header>
+            <img class="image-wrapper" src="assets/step-1.png" alt="blabla">
+            <div class="title-wrapper">Notifications Survey</div>
+    </header>
+    <main>
+        <div class="main-container">
+            <p>We're working on our notification system to make our product work better.</p>
+            <p>The survey consist in several questions and usually takes 5-7 minutes to complete</p>
+        <form>
+            <div class="email-section">
+                <label for="email-input">Enter your email here:</label>
+                <input type="email" id="email-input" name="email" placeholder="Your answer">
+            </div>
+            <div class="admin-radio-input">
+                <div class="label">
+                    <label for="idselector">Are you an admin or a member on our Board?</label>
+                </div>
+                <div class="input-radio">
+                    <input type="radio" id="idselector" name="radio">
+                    <span>Admin</span> 
+                </div>
+                <div>
+                    <input type="radio" id="idselector" name="radio">
+                    <span>Member</span>
+                </div>
+            </div>
+            <div class="board">
+                <div>
+                    <div class="label-board">
+                        <label for="board-input">How do you collaborate in our Board?</label>
+                    </div>
+                    <div class="input-board">
+                        <input type="radio" id="board" name="board">
+                        <span>Create and edit content</span>
+                    </div>
+                    <div class="input-board">
+                        <input type="radio" id="board" name="board">
+                        <span>Comment and leave comment</span>
+                    </div>
+                    <div class="input-board">
+                        <input type="radio" id="board" name="board">
+                        <span>Just review created conmment</span>
+                    </div>
+                    <div class="input-board">
+                        <input type="radio" id="board" name="board">
+                        <span>Oher</span>
+                        <input class="other-input" type="text" name="text">
+                    </div>
+                </div>
+            </div>
+        </form> 
+        </div>
+    </main>
+    <footer>
+        <div class="button-next">
+            <button><a href="page2.html">NEXT</a></button>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
