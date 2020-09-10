@@ -6,6 +6,7 @@
 html,body,.page-container{width:100%;
                           height:100%;}
 .page-container{background-color: #afafaf;}
+/* dimensiune direct pe imagine nu este ok. desi ai folosit ca si clasa image-wrapper, acesta nu este un wrapper, ci actionezi direct pe imagine */
 .image-wrapper{width: 200px;}   
 header{position: relative;
       padding-top: 10px;
@@ -106,6 +107,7 @@ input[type=checkbox]:checked + label:before {
                   width: 50px;
                   right: 41.5%;}
 .back-button {background-color: grey;}
+/* pentru elemente de tipul asta te poti folosi de floex sau float. Foosesti prea mult position si este extrem de manuala ca si tehnica. */
 .send-button {position:relative;
               left:64%;}
 .navigation-buttons {margin-top:80px;}
